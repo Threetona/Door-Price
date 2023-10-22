@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Grid, Typography, Paper } from '@mui/material';
-import { useTheme } from '@mui/material/styles';
+import '../styles.css';
 
 const styles = {
     background: {
@@ -11,19 +11,34 @@ const styles = {
         backgroundRepeat: 'no-repeat',
         animation: 'waveAnimation 4s linear infinite',
     },
+    // inherit
     title: {
-        fontSize: '4em',
-        color: 'white',
-        color: 'inherit',
+        fontSize: '3em',
+        fontWeight: 'bold',
+        color: '#07609a',
+        textTransform: 'uppercase',
+        animation: 'fadeIn 3s',
+        marginTop: '-96px',
+        animationName: 'zoomIn', // Mulai dengan animasi zoom in
+        animationDuration: '5s',
+        animationIterationCount: 'infinite',
+        animationDirection: 'alternate',
+    },
+    text: {
+        color: '#07609a',
+        fontSize: '10em',
+        fontWeight: 'bold',
+        transition: 'font-size 1s ease-in-out',
+        textAlign: 'center',
         animation: 'fadeIn 3s',
     },
-    text2: {
-        color: 'inherit',
-        fontWeight: 'bold',
-        textTransform: 'uppercase',
-        transition: 'background-color 0.5s ease-in-out',
-        // textAlign: 'center',
-        animation: 'fadeIn 3s',
+    ribbon: {
+        position: 'absolute',
+        transition: 'transform 1s, opacity 1s',
+    },
+    ribbonActive: {
+        transform: 'translate(-50%, -50%) scale(2)',
+        opacity: 0,
     },
 };
 
@@ -72,8 +87,6 @@ function Main() {
         return String(number).padStart(4, '0');
     };
 
-    const theme = useTheme();
-
     return (
         <Grid
             container
@@ -82,18 +95,22 @@ function Main() {
             sx={styles.background}
         >
             <Grid item>
+                <Typography variant="h4" gutterBottom sx={styles.title}>
+                    Undian Door Prize
+                </Typography>
                 <Paper
                     elevation={4}
                     style={{
-                        padding: '60px',
-                        background: 'rgba(255, 255, 255, 0.7)',
+                        padding: '70px',
+                        background: 'rgba(255, 255, 255, 0.9)',
                         animation: 'fadeIn 3s',
+                        borderRadius: '30px',
                     }}
                 >
-                    <Typography variant="h4" gutterBottom sx={styles.title}>
-                        Nomor Undian Door Prize
-                    </Typography>
-                    <Typography variant="h2" gutterBottom sx={styles.text2}>
+                    {/* <Typography variant="h4" gutterBottom sx={styles.title}>
+                        Undian Door Prize
+                    </Typography> */}
+                    <Typography variant="h2" gutterBottom sx={styles.text}>
                         {doorPrizeNumber}
                     </Typography>
                     <Button

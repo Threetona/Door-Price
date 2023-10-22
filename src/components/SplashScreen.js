@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Grid, Typography, Button } from '@mui/material';
+import { Grid } from '@mui/material';
 
 const styles = {
     background: {
@@ -15,7 +15,7 @@ const styles = {
 const SplashScreen = () => {
     useEffect(() => {
         const splashTimeout = setTimeout(() => {
-            window.location.href = '/main';
+            window.location.href = '/door-prize';
         }, 50000); // Splash screen ditampilkan selama 50 detik
 
         return () => {

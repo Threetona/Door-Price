@@ -7,7 +7,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<SplashScreen />} />
-                <Route path="/main" element={<Main />} />
+                <Route path="/door-prize" element={<Main />} />
             </Routes>
         </Router>
     );
