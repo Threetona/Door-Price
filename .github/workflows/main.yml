@@ -17,4 +17,4 @@ jobs:
                 port: 22
                 script: |
                       cd /var/www/nodejs/Door-Price
-                      ls
+                      node -v
