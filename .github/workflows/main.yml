@@ -11,10 +11,10 @@ jobs:
             - name: SSH and Deploy
               uses: appleboy/ssh-action@v1.0.0
               with:
-                host: 222.124.139.228
-                username: poweradmin
-                password: admin@1psg
-                port: 22
+                host: ${{ secrets.SERVER_PSG_SSH_HOST }}
+                username: ${{ secrets.SERVER_PSG_SSH_USERNAME }}
+                password: ${{ secrets.SERVER_PSG_SSH_PWD }}
+                port: ${{ secrets.SERVER_PSG_SSH_PORT }}
                 script: |
-                      cd /var/www/nodejs/Door-Price
-                      node -v
+                      cd ${{ secrets.SERVER_PSG_SSH_PATH }}
+                      npm install
