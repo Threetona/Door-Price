@@ -17,4 +17,4 @@ jobs:
                 port: ${{ secrets.SERVER_PSG_SSH_PORT }}
                 script: |
                       cd ${{ secrets.SERVER_PSG_SSH_PATH }}
-                      npm install
+                      sudo npm install
