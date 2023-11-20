@@ -18,3 +18,4 @@ jobs:
                 script: |
                       cd ${{ secrets.SERVER_PSG_SSH_PATH }}
                       echo '${{ secrets.SERVER_PSG_SSH_PWD }}' | sudo -S npm install
+                      echo '${{ secrets.SERVER_PSG_SSH_PWD }}' | sudo -S pm2 list
