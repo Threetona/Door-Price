@@ -25,7 +25,7 @@ const styles = {
         animationDirection: 'alternate',
     },
     text: {
-        color: '#07609a',
+        color: 'inherit',
         fontSize: '10em',
         fontWeight: 'bold',
         transition: 'font-size 1s ease-in-out',

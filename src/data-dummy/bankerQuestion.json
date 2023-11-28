@@ -1,0 +1,45 @@
+[
+    {
+      "category": "Tentang Sambu",
+      "questionNumber": 1,
+      "question": "Tanggal berapakah ulang tahun Sambu Group?",
+      "answer": "05 Desember",
+      "time": 15
+    },
+    {
+      "category": "Produk",
+      "questionNumber": 2,
+      "question": "Apa nama brand unggulan Sambu Group?",
+      "answer": "KARA",
+      "time": 20
+    },
+    {
+        "category": "Brand",
+        "questionNumber": 3,
+        "question": "Kepanjangan dari KARA?",
+        "answer": "Kelapa Rakya",
+        "time": 20
+    },
+    {
+      "category": "Tentang Sambu",
+      "questionNumber": 4,
+      "question": "Siapakah pendiri Sambu Grup?",
+      "answer": "Tay Juhana",
+      "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 5,
+        "question": "Kapan PT Pulau Sambu Guntung didirikan?",
+        "answer": "1983",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 6,
+        "question": "Jika perlu waktu merebus 20 menit agar sebutir telur bisa matang, berapa lama waktu merebus yang dibutuhkan agar 10 butir telur bisa matang?",
+        "answer": "20 menit",
+        "time": 10
+    }
+]
+  
