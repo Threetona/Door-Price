@@ -3,6 +3,7 @@ import SplashScreen from './components/SplashScreen';
 import Main from './components/Main';
 import TimerSoal from './components/timerSoal';
 import CountdownTimer from './components/CountdownTimer';
+import CountdownTimer2 from './components/CountdownTimer2';
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Route path="/door-prize" element={<Main />} />
                 <Route path="/ranking-1" element={<TimerSoal />} />
                 <Route path="/timer" element={<CountdownTimer />} />
+                <Route path="/timer-two" element={<CountdownTimer2 />} />
             </Routes>
         </Router>
     );

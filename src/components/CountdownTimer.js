@@ -4,7 +4,7 @@ import { Button, Grid, Typography, Paper } from '@mui/material';
 const styles = {
     background: {
     height: '100vh',
-    backgroundImage: `url("/image/Twibbon.png")`,
+    backgroundImage: `url("/image/1080.png")`,
     backgroundPosition: 'center',
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
@@ -29,7 +29,7 @@ const styles = {
         maxWidth: '1000px', // Sesuaikan dengan lebar maksimum yang diinginkan
     },    
     time: {
-        fontSize: '30em',
+        fontSize: '25em',
         fontWeight: 'bold',
         color: '#07609a',
         margin: '0 auto',
