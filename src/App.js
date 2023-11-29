@@ -4,6 +4,7 @@ import Main from './components/Main';
 import TimerSoal from './components/timerSoal';
 import CountdownTimer from './components/CountdownTimer';
 import CountdownTimer2 from './components/CountdownTimer2';
+import Question from './components/question';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/ranking-1" element={<TimerSoal />} />
                 <Route path="/timer" element={<CountdownTimer />} />
                 <Route path="/timer-two" element={<CountdownTimer2 />} />
+                <Route path="/question" element={<Question />} />
             </Routes>
         </Router>
     );

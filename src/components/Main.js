@@ -5,7 +5,7 @@ import '../styles.css';
 const styles = {
     background: {
         height: '100vh',
-        backgroundImage: `url("/image/Layou-DOOR-PRIZE.png")`,
+        backgroundImage: `url("/image/bahan/bg-doorprize.png")`,
         backgroundPosition: 'center',
         backgroundSize: '100% 100%',
         backgroundRepeat: 'no-repeat',
@@ -39,7 +39,7 @@ function Main() {
         // Menghentikan pengacakan setelah 20 detik (20000 milidetik)
         setTimeout(() => {
         stopAutoRandomizing(randomizeInterval);
-        }, 20000);
+        }, 5000);
     };
 
     const stopAutoRandomizing = (intervalId) => {
