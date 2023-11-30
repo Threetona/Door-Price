@@ -31,6 +31,15 @@
     }
 }
 
+@keyframes slideInUp {
+    from {
+      transform: translateY(50px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+
 /* body {
     margin: 0;
     padding: 0;

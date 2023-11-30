@@ -1,31 +1,31 @@
 [
     {
-      "category": "Tentang Sambu",
-      "questionNumber": 1,
-      "question": "Tanggal berapakah ulang tahun Sambu Group?",
-      "answer": "05 Desember",
-      "time": 15
+        "category": "Tentang Sambu",
+        "questionNumber": 1,
+        "question": "Tanggal berapakah ulang tahun Sambu Group?",
+        "answer": "05 Desember",
+        "time": 10
     },
     {
-      "category": "Produk",
-      "questionNumber": 2,
-      "question": "Apa nama brand unggulan Sambu Group?",
-      "answer": "KARA",
-      "time": 20
+        "category": "Produk",
+        "questionNumber": 2,
+        "question": "Apa nama brand unggulan Sambu Group?",
+        "answer": "KARA",
+        "time": 15
     },
     {
         "category": "Brand",
         "questionNumber": 3,
         "question": "Kepanjangan dari KARA?",
-        "answer": "Kelapa Rakya",
-        "time": 20
+        "answer": "Kelapa Rakyat",
+        "time": 5
     },
     {
-      "category": "Tentang Sambu",
-      "questionNumber": 4,
-      "question": "Siapakah pendiri Sambu Grup?",
-      "answer": "Tay Juhana",
-      "time": 10
+        "category": "Tentang Sambu",
+        "questionNumber": 4,
+        "question": "Siapakah pendiri Sambu Grup?",
+        "answer": "Tay Juhana",
+        "time": 5
     },
     {
         "category": "Tentang Sambu",
@@ -37,9 +37,9 @@
     {
         "category": "Umum",
         "questionNumber": 6,
-        "question": "Jika perlu waktu merebus 20 menit agar sebutir telur bisa matang, berapa lama waktu merebus yang dibutuhkan agar 10 butir telur bisa matang?",
+        "question": "Jika perlu waktu merebus 20 menit agar sebutir telur bisa matang, berapa lama waktu merebus yang dibutuhkan agar 5 butir telur bisa matang?",
         "answer": "20 menit",
-        "time": 10
+        "time": 20
     }
 ]
   
