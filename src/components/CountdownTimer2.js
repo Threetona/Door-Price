@@ -42,36 +42,36 @@ const CountdownTimer2 = () => {
         window.addEventListener('keypress', handleKeyPress);
 
         return () => {
-        window.removeEventListener('keypress', handleKeyPress);
+            window.removeEventListener('keypress', handleKeyPress);
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-        const startCountdown = () => {
-            intervalRef.current = setInterval(() => {
-                setCountdown((prevCountdown) => {
-                    console.log('prevCountdown:', prevCountdown); // Tambahkan ini
-                    if (prevCountdown > 0) {
-                        // Mainkan suara setiap kali nomor berubah
-                        if (prevCountdown !== countdown) {
-                            audioRef.current.play();
-                        }
-                
-                        // Jalankan audio jika countdown mencapai 2
-                        if (prevCountdown === 2) {
-                            audioRef.current.play();
-                        }
-                
-                        return prevCountdown - 1;
-                    } else {
-                        // Countdown selesai, hentikan interval
-                        clearInterval(intervalRef.current);
-                        intervalRef.current = null; // Nolkan referensi interval
-                        return 0;
+    const startCountdown = () => {
+        intervalRef.current = setInterval(() => {
+            setCountdown((prevCountdown) => {
+                console.log('prevCountdown:', prevCountdown); // Tambahkan ini
+                if (prevCountdown > 0) {
+                    // Mainkan suara setiap kali nomor berubah
+                    if (prevCountdown !== countdown) {
+                        audioRef.current.play();
                     }
-                });
-            }, 1000);
-        };
-    
+
+                    // Jalankan audio jika countdown mencapai 2
+                    if (prevCountdown === 2) {
+                        audioRef.current.play();
+                    }
+
+                    return prevCountdown - 1;
+                } else {
+                    // Countdown selesai, hentikan interval
+                    clearInterval(intervalRef.current);
+                    intervalRef.current = null; // Nolkan referensi interval
+                    return 0;
+                }
+            });
+        }, 1000);
+    };
 
     const stopCountdown = () => {
         // Hentikan countdown dan reset nilai
