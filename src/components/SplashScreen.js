@@ -15,7 +15,7 @@ const styles = {
 const SplashScreen = () => {
     useEffect(() => {
         const currentDate = new Date();
-        const targetDate2 = new Date('2023-11-30'); // Ganti dengan tanggal yang diinginkan
+        const targetDate2 = new Date('2023-12-01'); // Ganti dengan tanggal yang diinginkan
         const targetDate3 = new Date('2023-12-03'); // Ganti dengan tanggal yang diinginkan
 
         const splashTimeout = setTimeout(() => {
@@ -23,7 +23,9 @@ const SplashScreen = () => {
             if (currentDate.toDateString() === targetDate2.toDateString()) {
                 // Jika tanggal hari ini sama dengan tanggal 2, arahkan ke '/question'
                 window.location.href = '/question';
-            } else if (currentDate.toDateString() === targetDate3.toDateString()) {
+            } else if (
+                currentDate.toDateString() === targetDate3.toDateString()
+            ) {
                 // Jika tanggal hari ini sama dengan tanggal 3, arahkan ke '/doorprize'
                 window.location.href = '/doorprize';
             } else {
