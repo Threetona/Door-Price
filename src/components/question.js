@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Button, Grid, Typography, Paper } from '@mui/material';
 import bankerQuestions from '../data-dummy/bankerQuestion.json';
+import bankerQuestions2 from '../data-dummy/bankerQuestion2.json';
 
 const styles = {
     background: {
@@ -14,6 +15,15 @@ const styles = {
 
     text: {
         color: 'inherit',
+        fontSize: '5em',
+        fontWeight: 'bold',
+        margin: 'auto',
+        textAlign: 'center',
+        animation: 'fadeIn 3s',
+        lineHeight: 1.2,
+    },
+    text2: {
+        color: '#1976D2',
         fontSize: '5em',
         fontWeight: 'bold',
         margin: 'auto',
@@ -116,7 +126,7 @@ function Question() {
 
     useEffect(() => {
         if (gameStarted && timerStarted) {
-            setCountdown(bankerQuestions[currentQuestion].time);
+            setCountdown(bankerQuestions2[currentQuestion].time);
 
             timerRef.current = setInterval(() => {
                 setCountdown((prevCountdown) => {
@@ -140,7 +150,7 @@ function Question() {
 
     const handleStartGame = () => {
         setGameStarted(true);
-        setCountdown(bankerQuestions[currentQuestion].time);
+        setCountdown(bankerQuestions2[currentQuestion].time);
         setShowQuestion(true);
 
         clearInterval(timerRef.current);
@@ -151,15 +161,15 @@ function Question() {
 
         // Setel state yang diperlukan ke nilai awalnya
         setCurrentQuestion(0);
-        setCountdown(bankerQuestions[0].time);
+        setCountdown(bankerQuestions2[0].time);
     };
 
     const handleNextQuestion = () => {
         const nextQuestion = currentQuestion + 1;
 
-        if (nextQuestion < bankerQuestions.length) {
+        if (nextQuestion < bankerQuestions2.length) {
             setCurrentQuestion(nextQuestion);
-            setCountdown(bankerQuestions[nextQuestion].time);
+            setCountdown(bankerQuestions2[nextQuestion].time);
             setShowAnswer(false);
             setShowQuestion(true);
             setTimerStarted(false);
@@ -279,7 +289,7 @@ function Question() {
                                         }}
                                     >
                                         {
-                                            bankerQuestions[currentQuestion]
+                                            bankerQuestions2[currentQuestion]
                                                 .question
                                         }
                                     </Typography>
@@ -288,14 +298,14 @@ function Question() {
                                         variant="h5"
                                         gutterBottom
                                         sx={{
-                                            ...styles.text,
+                                            ...styles.text2,
                                             animation: animateAnswer
                                                 ? 'fadeInSlide 2s ease-in-out'
                                                 : 'none',
                                         }}
                                     >
                                         {showAnswer
-                                            ? `Jawaban: ${bankerQuestions[currentQuestion].answer}`
+                                            ? bankerQuestions2[currentQuestion].answer
                                             : ``}
                                     </Typography>
                                 </div>

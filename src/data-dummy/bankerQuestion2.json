@@ -1,0 +1,485 @@
+[
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 1,
+        "question": "Siapa pendiri PT Pulau Sambu ?",
+        "answer": "Tay Juhana",
+        "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 2,
+        "question": "Kapan ulang tahun Sambu Group ?",
+        "answer": "05 Desember",
+        "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 3,
+        "question": "PT Pulau Sambu adalah Produsen Produk Kelapa terbesar di Dunia ? Benar atau salah",
+        "answer": "Benar",
+        "time": 5
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 4,
+        "question": "Tahun berapa PT Pulau Sambu Unit Usaha Guntung didirikan ?",
+        "answer": "1983",
+        "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 5,
+        "question": "Pada Tahun 2001 PT Pulau Sambu Group memulai Produksi  Bubuk Cream Santan kelapa Kering. Benar atau Salah ?",
+        "answer": "Benar",
+        "time": 5
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 6,
+        "question": "Ada berapa divisi di PT Pulau Sambu Guntung ?",
+        "answer": "6 Divisi",
+        "time": 5
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 7,
+        "question": "Tahun 1976 merupakan awal dimulainya Bisnis Sambu Group. Benar atau Salah ?",
+        "answer": "Salah",
+        "time": 5
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 8,
+        "question": "PT RSUP merupakan salah satu anak perusahaan Sambu Group, PT tersebut didirikan pada tahun ?",
+        "answer": "1993",
+        "time": 5
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 9,
+        "question": "PT PSKE merupakan anak perusahaan tertua di Sambu Group. Apa produk pertama dari PT PSKE ?",
+        "answer": "Minyak Kelapa",
+        "time": 5
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 10,
+        "question": "Pada tahun 2005 Sambu Group genap berusia 30 tahun ? Benar atau Salah",
+        "answer": "Salah",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 11,
+        "question": "Indonesia terdiri dari berapa provinsi ?",
+        "answer": "38 Provinsi",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 12,
+        "question": "Ibu kota Provinsi Riau adalah ?",
+        "answer": "Pekan Baru",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 13,
+        "question": "Ibu kota provinsi Gorontalo ?",
+        "answer": "Gorontalo",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 14,
+        "question": "Ibu kota Kabupaten Indragiri Hilir ?",
+        "answer": "Tembilahan",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 15,
+        "question": "Berapa jumlah provinsi di Pulau Sumatera ?",
+        "answer": "10 Provinsi",
+        "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 16,
+        "question": "Siapa nama Presiden yang meresmikan Pabrik Pengolahan Pangan di PT PULAU SAMBU ?",
+        "answer": "Presiden SUHARTO",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 17,
+        "question": "Berapa tahun sekali pemilihan presiden dan wakil presiden di Indonesia ?",
+        "answer": "5 Tahun",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 18,
+        "question": "Siapa nama Presiden RI yang pertama ?",
+        "answer": "Ir. Seokarno",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 19,
+        "question": "Siapa nama Presiden RI yang dilengserkan dari jabatannya oleh MPR pada 23 Juli 2001 ?",
+        "answer": "Abdurrahman Wahid",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 20,
+        "question": "Presiden negara Indonesia yang paling lama memimpin adalah presiden Suharto.  Benar atau salah ?",
+        "answer": "Benar",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 22,
+        "question": "Krim/santan kelapa dalam kemasan diproduksi menggunakan teknologi UHT, Sebutkan kepanjangan UHT ?",
+        "answer": "Ultra High Temperature",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 23,
+        "question": "Dimanakah terjadi nya Tsunami Terbesar di Indonesia ?",
+        "answer": "ACEH",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 24,
+        "question": "Tahun Berapakah Terjadi nya Tsunami Terbesar di indonesia ?",
+        "answer": "2024",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 25,
+        "question": "Kepanjangan dari zona waktu WITA ?",
+        "answer": "Waktu Indonesia Tengah",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 26,
+        "question": "Kepanjangan dari K3 ?",
+        "answer": "Keselamatan dan Kesehatan Kerja",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 27,
+        "question": "Kepanjangan dari zona waktu WIB adalah ?",
+        "answer": "Waktu Indonesia Barat",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 28,
+        "question": "WHO adalah organisasi yang mengurus masalah kesehatan, kepanjangan WHO adalah ?",
+        "answer": "World Health Organization",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 29,
+        "question": "Kepanjangan dari SARA ?",
+        "answer": "Suku Agama Dan Ras Serta Antargolongan",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 30,
+        "question": "Tuliskan angka romawi untuk 1000 ?",
+        "answer": "M",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 31,
+        "question": "Tuliskan angka romawi untuk 2023 ?",
+        "answer": "MMXXIII",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 32,
+        "question": "Tuliskan rumus kimia dari air ?",
+        "answer": "H²O",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 33,
+        "question": "Tuliskan rumus kimia dari oksigen ?",
+        "answer": "O2",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 34,
+        "question": "Tuliskan rumus kimia garam ?",
+        "answer": "NaCI",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 35,
+        "question": "Tahun yang jumlah harinya 366 disebut tahun ?",
+        "answer": "Tahun Kabisat",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 36,
+        "question": "Siapa nama ketua serikat karyawan PT Pulau Sambu Guntung ?",
+        "answer": "Denny Sianipar",
+        "time": 10
+    },
+    {
+        "category": "Tentang Kelapa",
+        "questionNumber": 37,
+        "question": "Nama latin pohon kelapa adalah ?",
+        "answer": "Cocos mucifera L",
+        "time": 10
+    },
+    {
+        "category": "Tentang Kelapa",
+        "questionNumber": 38,
+        "question": "Sebutkan jenis akar kelapa ?",
+        "answer": "Akar Serabut",
+        "time": 10
+    },
+    {
+        "category": "Tentang Kelapa",
+        "questionNumber": 39,
+        "question": "Sebutkan jenis daun kelapa ?",
+        "answer": "Daun Majemuk Menyirip",
+        "time": 10
+    },
+    {
+        "category": "Tentang Kelapa",
+        "questionNumber": 40,
+        "question": "Sebutan lain dari pohon kelapa ?",
+        "answer": "Coconut palm / Coco palm / Coconut tree",
+        "time": 10
+    },
+    {
+        "category": "Tentang Kelapa",
+        "questionNumber": 41,
+        "question": "Daging buah kelapa yang dikeringkan disebut ?",
+        "answer": "KOPRA",
+        "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 42,
+        "question": "Coconut water merupakan salah satu produk unggulan PT Pulau Sambu. Bahan dasar produk tersebut adalah ?",
+        "answer": "Air Kelapa",
+        "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 43,
+        "question": "Nama produk PT Pulau sambu berbahan dasar Batok/ Tempurung Kelapa ?",
+        "answer": "Emang ada ?",
+        "time": 10
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 44,
+        "question": "Pada tahun 2023 KARA menjadi pemenang untuk kategori Santan Kelapa (Coconut Cream) dalam ajang Indonesia Customer Experience Award Benar atau salah ?",
+        "answer": "Benar",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 45,
+        "question": "Pengikisan tanah oleh air laut disebut erosi. Benar atau Salah?",
+        "answer": "Benar",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 46,
+        "question": "Letak Stomata pada tumbuhan ada di Batang. Benar atau Salah ?",
+        "answer": "Benar",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 47,
+        "question": "Lambang sila ketiga “Persatuan Indonesia” dalam pancasila adalah ?",
+        "answer": "Pohon Beringin",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 48,
+        "question": "Peristiwa atau keadaan dimana terendamnya suatu daerah atau daratan karena volume air yang meningkat disebut ?",
+        "answer": "Banjir",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 49,
+        "question": "√81 adalah ?",
+        "answer": "9",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 50,
+        "question": "Gunung tertinggi di dunia adalah gunung everest. Benar atau salah ?",
+        "answer": "Benar",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 51,
+        "question": "Tsunami diambil dari bahasa manakah ?",
+        "answer": "Jepang",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 52,
+        "question": "Bahasa Inggris dari gambar tersebut ?",
+        "answer": "pineapple",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 53,
+        "question": "Siapakah bapak pendidikan Indonesia ?",
+        "answer": "Ki Hadjar Dewantara",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 54,
+        "question": "3 Minggu + 5 Hari - 1 Minggu = ……… Hari",
+        "answer": "19",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 55,
+        "question": "Jika dalam 1 layer berjumlah 12 carton dan dalam 1 pallet terdapat 4 layer Maka jumlah produk tersebut dalam 1 pallet adalah ?",
+        "answer": "????",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 56,
+        "question": "1 Juli diperingati sebagai Hari Lahir Pancasila. benar atau salah ?",
+        "answer": "Salah",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 57,
+        "question": "Hari Buruh Nasional diperingati pada tanggal ?",
+        "answer": "1 Mei",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 58,
+        "question": "Apa benua terbesar di dunia ?",
+        "answer": "ASIA",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 59,
+        "question": "Taj Mahal merupakan salah satu keajaiban dunia. Di negara manakah “Taj Mahal” berada ?",
+        "answer": "INDIA",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 60,
+        "question": "Candi Borobudur merupakan candi terbesar di Indonesia. Dimanakah terletak candi tersebut ?",
+        "answer": "Magelang, Jawa Tengah",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 61,
+        "question": "Sungai terpanjang di dunia adalah ?",
+        "answer": "Sungai Nil",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 62,
+        "question": "Danau terbesar di Indonesia adalah ?",
+        "answer": "Danau Toba",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 63,
+        "question": "Riau merupakan Penghasil/Produsen kelapa terbesar di Indonesia. Benar atau Salah ?",
+        "answer": "Benar",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 64,
+        "question": "Biola adalah alat musik yang dimainkan dengan cara ?",
+        "answer": "Digesek",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 65,
+        "question": "Nada ke 6 dalam tangga nada adalah nada ?",
+        "answer": "la",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 66,
+        "question": "Selat yang menghubungkan pulau Jawa dan pulau Sumatera adalah ?",
+        "answer": "Selat Sunda",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 67,
+        "question": "Siapakah Bapak Proklamator Indonesia ?",
+        "answer": "Ir. Soekarno",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 68,
+        "question": "Siapakah Nama Kemnaker saat ini ?",
+        "answer": "IDA FAUZIYAH",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 69,
+        "question": "Siapakah presiden ke 7 indonesia",
+        "answer": "JOKO WIDODO",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 70,
+        "question": "Siapakah presiden ke 7 indonesia",
+        "answer": "JOKO WIDODO",
+        "time": 10
+    }
+]
