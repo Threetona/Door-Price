@@ -5,7 +5,7 @@
         "question": "Siapa pendiri PT Pulau Sambu ?",
         "question2": "",
         "answer": "Tay Juhana",
-        "explanation": "PT PULAU SAMBU didirikan sebagai suatu perusahaan pada tahun 1967, namun nilai warisannya dimulai dari semangat perintis Tn. Tay Juhana",
+        "explanation": "PT PULAU SAMBU didirikan sebagai suatu perusahaan pada tahun 1967, yang nilai warisannya dimulai dari semangat perintis Tn. Tay Juhana",
         "time": 10
     },
     {
@@ -23,7 +23,7 @@
         "question": "PT Pulau Sambu adalah Produsen Produk Kelapa terbesar di Dunia.",
         "question2": "Benar atau Salah ?",
         "answer": "Benar",
-        "explanation": "PT Pulau Sambu adalah produsen produk kelapa terbesar dan paling terintegrasi di dunia. PT Pulau Sambu menjadi bagian dari SAMBU GROUP, yang terdiri dari PT Pulau Sambu (KUALA ENOK) dan PT Pulau Sambu (GUNTUNG).",
+        "explanation": "",
         "time": 5
     },
     {
@@ -68,7 +68,7 @@
         "question": "PT RSUP merupakan salah satu anak perusahaan Sambu Group, PT tersebut didirikan pada tahun ?",
         "question2": "",
         "answer": "1993",
-        "explanation": "",
+        "explanation": "Pabrik PT Riau Sakti United Plantations didirikan pada tahun 1993 untuk meningkatkan kapasitas pengolahan kelapa parut.",
         "time": 5
     },
     {
@@ -76,9 +76,9 @@
         "questionNumber": 9,
         "question": "PT PSKE merupakan anak perusahaan tertua di Sambu Group. Apa produk pertama dari PT PSKE ?",
         "question2": "",
-        "answer": "Minyak Kelapa",
+        "answer": "Minyak Kelapa Mentah",
         "explanation": "",
-        "time": 5
+        "time": 10
     },
     {
         "category": "Tentang Sambu",
@@ -103,7 +103,7 @@
         "questionNumber": 12,
         "question": "Ibu kota Provinsi Riau adalah ?",
         "question2": "",
-        "answer": "Pekan Baru",
+        "answer": "Pekanbaru",
         "explanation": "",
         "time": 10
     },
@@ -131,7 +131,7 @@
         "question": "Berapa jumlah provinsi di Pulau Sumatera ?",
         "question2": "",
         "answer": "10 Provinsi",
-        "explanation": "",
+        "explanation": "Aceh, Sumatera Utara, Sumatera Barat, Riau, Kepualauan Riau, Jambi, Bengkulu, Sumatera Selatan, Bangka Belitung, dan Lampung",
         "time": 10
     },
     {
@@ -149,7 +149,7 @@
         "question": "Berapa tahun sekali pemilihan presiden dan wakil presiden di Indonesia ?",
         "question2": "",
         "answer": "5 Tahun",
-        "explanation": "",
+        "explanation": "Pasal 22E UUD 45 menyatakan bahwa Pemilu lima tahun sekali",
         "time": 10
     },
     {
@@ -176,7 +176,7 @@
         "question": "Presiden negara Indonesia yang paling lama memimpin adalah presiden Suharto.",
         "question2": "Benar atau Salah ?",
         "answer": "Benar",
-        "explanation": "",
+        "explanation": "Masa jabatan dari 12 Maret 1967 sampai 21 Mei 1998",
         "time": 10
     },
     {
@@ -194,7 +194,7 @@
         "question": "Dimanakah terjadi nya Tsunami Terbesar di Indonesia ?",
         "question2": "",
         "answer": "ACEH",
-        "explanation": "",
+        "explanation": "Badan Meteorologi Klimatologi dan Geofisika (BMKG) mencatat, bencana tsunami terbesar di Indonesia terjadi di Aceh pada tahun 2004 silam. Jumlah korban meninggal dunia dari peristiwa alam tsunami Aceh itu disebut mencapai 227.898 jiwa.",
         "time": 10
     },
     {
@@ -274,7 +274,7 @@
         "questionNumber": 32,
         "question": "Tuliskan rumus kimia dari air ?",
         "question2": "",
-        "answer": "H²O",
+        "answer": "H2O",
         "explanation": "",
         "time": 10
     },
@@ -319,7 +319,7 @@
         "questionNumber": 37,
         "question": "Nama latin pohon kelapa adalah ?",
         "question2": "",
-        "answer": "Cocos mucifera L",
+        "answer": "Cocos nucifera",
         "explanation": "",
         "time": 10
     },
@@ -337,7 +337,7 @@
         "questionNumber": 39,
         "question": "Sebutkan jenis daun kelapa ?",
         "question2": "",
-        "answer": "Daun Majemuk Menyirip",
+        "answer": "Menyirip",
         "explanation": "",
         "time": 10
     },
@@ -346,7 +346,7 @@
         "questionNumber": 40,
         "question": "Sebutan lain dari pohon kelapa ?",
         "question2": "",
-        "answer": "Coconut palm / Coco palm / Coconut tree",
+        "answer": "Tree of life",
         "explanation": "",
         "time": 10
     },
@@ -373,7 +373,7 @@
         "questionNumber": 43,
         "question": "Nama produk PT Pulau sambu berbahan dasar Batok/ Tempurung Kelapa ?",
         "question2": "",
-        "answer": "Emang ada ?",
+        "answer": "Coconut Shell Charcoal / Arang Batok Kelapa",
         "explanation": "",
         "time": 10
     },
