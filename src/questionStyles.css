@@ -1,0 +1,87 @@
+/* styles.css */
+
+.background {
+    height: 100vh;
+    background-image: url('/image/bahan/bg-ranking1.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: waveAnimation 4s linear infinite;
+}
+
+.text {
+    color: inherit;
+    font-size: 5em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 3s;
+    line-height: 1.2;
+}
+
+.text2 {
+    color: #1976d2;
+    font-size: 5em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 3s;
+    line-height: 1.2;
+}
+
+.textTime {
+    color: inherit;
+    margin: auto;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    animation: fadeIn 3s;
+    line-height: 1.2;
+}
+
+.timerPaper {
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 1);
+    animation:
+        fadeIn 3s,
+        slideInUp 2s;
+    border-radius: 50px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.questionPaper {
+    width: 1500px;
+    height: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+    animation:
+        fadeIn 3s,
+        slideInUp 2s;
+    border-radius: 15px;
+    opacity: 1;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answerPaper {
+    padding: 20px;
+    background: rgba(255, 255, 255, 1);
+    animation: fadeIn 3s;
+    border-radius: 15px;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}

@@ -2,44 +2,73 @@
     {
         "category": "Tentang Sambu",
         "questionNumber": 1,
-        "question": "Tanggal berapakah ulang tahun Sambu Group?",
-        "answer": "05 Desember",
-        "time": 10
-    },
-    {
-        "category": "Produk",
-        "questionNumber": 2,
-        "question": "Apa nama brand unggulan Sambu Group?",
-        "answer": "KARA",
-        "time": 15
-    },
-    {
-        "category": "Brand",
-        "questionNumber": 3,
-        "question": "Kepanjangan dari KARA?",
-        "answer": "Kelapa Rakyat",
+        "question": "PT Pulau Sambu adalah Produsen Produk Kelapa terbesar di Dunia.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Benar",
+        "explanation": "PT Pulau Sambu adalah produsen produk kelapa terbesar dan paling terintegrasi di dunia. PT Pulau Sambu menjadi bagian dari SAMBU GROUP, yang terdiri dari PT Pulau Sambu (KUALA ENOK) dan PT Pulau Sambu (GUNTUNG)",
         "time": 5
     },
     {
         "category": "Tentang Sambu",
+        "questionNumber": 2,
+        "question": "Tanggal berapakah ulang tahun Sambu Group?",
+        "question2": "",
+        "answer": "10 Desember",
+        "explanation": "10 Desember adalah hari ulang tahun sambu group",
+        "time": 10
+    },
+    {
+        "category": "Produk",
+        "questionNumber": 3,
+        "question2": "",
+        "question": "Apa nama brand unggulan Sambu Group?",
+        "answer": "HYDRO",
+        "explanation": "",
+        "time": 15
+    },
+    {
+        "category": "Brand",
         "questionNumber": 4,
-        "question": "Siapakah pendiri Sambu Grup?",
-        "answer": "Tay Juhana",
+        "question2": "",
+        "question": "Kepanjangan dari KARA?",
+        "answer": "Kelapa Rakyat",
+        "explanation": "",
         "time": 5
     },
     {
         "category": "Tentang Sambu",
         "questionNumber": 5,
+        "question2": "",
+        "question": "Siapakah pendiri Sambu Grup?",
+        "answer": "Mister T",
+        "explanation": "",
+        "time": 5
+    },
+    {
+        "category": "Tentang Sambu",
+        "questionNumber": 6,
+        "question2": "",
         "question": "Kapan PT Pulau Sambu Guntung didirikan?",
-        "answer": "1983",
+        "answer": "1980",
+        "explanation": "",
         "time": 10
     },
     {
         "category": "Umum",
-        "questionNumber": 6,
+        "questionNumber": 7,
+        "question2": "",
         "question": "Tuliskan angka romawi untuk 2023 ?",
         "answer": "MMXXIII",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 8,
+        "question": "Pada tahun 2023 KARA menjadi pemenang untuk kategori Santan Kelapa (Coconut Cream) dalam ajang Indonesia Customer Experience Award.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Benar",
+        "explanation": "Dalam ajang Indonesia Customer Experience Award (ICXA) 2023, KARA kembali menjadi pemenang untuk kategori santan kelapa (coconut cream). Webinar dan virtual awarding diselenggarakan oleh SWA Media berkolaborasi dengan Business Digest, pada Kamis, 23 Februari 2023.",
         "time": 10
     }
 ]
-  

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Button, Grid, Typography, Paper } from '@mui/material';
 import bankerQuestions from '../data-dummy/bankerQuestion.json';
+// eslint-disable-next-line no-unused-vars
 import bankerQuestions2 from '../data-dummy/bankerQuestion2.json';
 
 const styles = {
@@ -25,6 +26,15 @@ const styles = {
     text2: {
         color: '#1976D2',
         fontSize: '5em',
+        fontWeight: 'bold',
+        margin: 'auto',
+        textAlign: 'center',
+        animation: 'fadeIn 3s',
+        lineHeight: 1.3,
+    },
+    text3: {
+        color: 'inherit',
+        fontSize: '3em',
         fontWeight: 'bold',
         margin: 'auto',
         textAlign: 'center',
@@ -126,7 +136,7 @@ function Question() {
 
     useEffect(() => {
         if (gameStarted && timerStarted) {
-            setCountdown(bankerQuestions2[currentQuestion].time);
+            setCountdown(bankerQuestions[currentQuestion].time);
 
             timerRef.current = setInterval(() => {
                 setCountdown((prevCountdown) => {
@@ -150,7 +160,7 @@ function Question() {
 
     const handleStartGame = () => {
         setGameStarted(true);
-        setCountdown(bankerQuestions2[currentQuestion].time);
+        setCountdown(bankerQuestions[currentQuestion].time);
         setShowQuestion(true);
 
         clearInterval(timerRef.current);
@@ -161,15 +171,15 @@ function Question() {
 
         // Setel state yang diperlukan ke nilai awalnya
         setCurrentQuestion(0);
-        setCountdown(bankerQuestions2[0].time);
+        setCountdown(bankerQuestions[0].time);
     };
 
     const handleNextQuestion = () => {
         const nextQuestion = currentQuestion + 1;
 
-        if (nextQuestion < bankerQuestions2.length) {
+        if (nextQuestion < bankerQuestions.length) {
             setCurrentQuestion(nextQuestion);
-            setCountdown(bankerQuestions2[nextQuestion].time);
+            setCountdown(bankerQuestions[nextQuestion].time);
             setShowAnswer(false);
             setShowQuestion(true);
             setTimerStarted(false);
@@ -274,7 +284,7 @@ function Question() {
                         </Paper>
                         {/* question */}
                         <Paper elevation={4} style={styles.questionPaper}>
-                            {showQuestion && (
+                            {showQuestion && !showAnswer && (
                                 <div>
                                     <Typography
                                         variant="h5"
@@ -289,10 +299,47 @@ function Question() {
                                         }}
                                     >
                                         {
-                                            bankerQuestions2[currentQuestion]
+                                            bankerQuestions[currentQuestion]
                                                 .question
                                         }
                                     </Typography>
+                                    <Typography
+                                        variant="h5"
+                                        gutterBottom
+                                        sx={{
+                                            ...styles.text,
+                                            animation:
+                                                animateQuestion &&
+                                                nextButtonClicked
+                                                    ? 'fadeInSlide 2s ease-in-out'
+                                                    : 'none',
+                                        }}
+                                    >
+                                        {bankerQuestions[
+                                            currentQuestion
+                                        ].question2
+                                            .split(' ')
+                                            .map((word, index) => (
+                                                <span
+                                                    key={index}
+                                                    style={{
+                                                        color:
+                                                            word === 'Benar'
+                                                                ? 'green'
+                                                                : word ===
+                                                                  'Salah'
+                                                                ? 'red'
+                                                                : 'inherit',
+                                                    }}
+                                                >
+                                                    {`${word} `}
+                                                </span>
+                                            ))}
+                                    </Typography>
+                                </div>
+                            )}
+                            {showAnswer && (
+                                <div>
                                     {/* answer */}
                                     <Typography
                                         variant="h5"
@@ -302,10 +349,35 @@ function Question() {
                                             animation: animateAnswer
                                                 ? 'fadeInSlide 2s ease-in-out'
                                                 : 'none',
+                                            color: bankerQuestions[
+                                                currentQuestion
+                                            ].answer.includes('Benar')
+                                                ? 'green'
+                                                : bankerQuestions[
+                                                      currentQuestion
+                                                  ].answer.includes('Salah')
+                                                ? 'red'
+                                                : '#1976D2',
                                         }}
                                     >
                                         {showAnswer
-                                            ? bankerQuestions2[currentQuestion].answer
+                                            ? bankerQuestions[currentQuestion]
+                                                  .answer
+                                            : ``}
+                                    </Typography>
+                                    <Typography
+                                        variant="h5"
+                                        gutterBottom
+                                        sx={{
+                                            ...styles.text3,
+                                            animation: animateAnswer
+                                                ? 'fadeInSlide 2s ease-in-out'
+                                                : 'none',
+                                        }}
+                                    >
+                                        {showAnswer
+                                            ? bankerQuestions[currentQuestion]
+                                                  .explanation
                                             : ``}
                                     </Typography>
                                 </div>

@@ -15,7 +15,7 @@ const styles = {
 const SplashScreen = () => {
     useEffect(() => {
         const currentDate = new Date();
-        const targetDate2 = new Date('2023-12-01'); // Ganti dengan tanggal yang diinginkan
+        const targetDate2 = new Date('2023-12-02'); // Ganti dengan tanggal yang diinginkan
         const targetDate3 = new Date('2023-12-03'); // Ganti dengan tanggal yang diinginkan
 
         const splashTimeout = setTimeout(() => {
