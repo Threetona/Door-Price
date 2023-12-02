@@ -181,6 +181,15 @@
     },
     {
         "category": "Umum",
+        "questionNumber": 21,
+        "question": "Apa satuan arus listrik ?",
+        "question2": "",
+        "answer": "Ampere",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
         "questionNumber": 22,
         "question": "Krim/santan kelapa dalam kemasan diproduksi menggunakan teknologi UHT, Sebutkan kepanjangan UHT ?",
         "question2": "",
@@ -391,8 +400,8 @@
         "questionNumber": 45,
         "question": "Pengikisan tanah oleh air laut disebut erosi.",
         "question2": "Benar atau Salah ?",
-        "answer": "Benar",
-        "explanation": "",
+        "answer": "Salah",
+        "explanation": "Erosi atau disebut juga pengikisan adalah suatu peristiwa yang terjadi secara alami oleh pengikisan padatan akibat transportasi oleh angin, tanah dan material lain",
         "time": 5
     },
     {
@@ -481,9 +490,9 @@
         "questionNumber": 55,
         "question": "Jika dalam 1 layer berjumlah 12 carton dan dalam 1 pallet terdapat 4 layer Maka jumlah produk tersebut dalam 1 pallet adalah ?",
         "question2": "",
-        "answer": "????",
+        "answer": "48",
         "explanation": "",
-        "time": 10
+        "time": 15
     },
     {
         "category": "Umum",
@@ -617,6 +626,276 @@
         "question": "Siapakah presiden ke 7 indonesia",
         "question2": "",
         "answer": "JOKO WIDODO",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Tentang K3",
+        "questionNumber": 71,
+        "question": "Ada 4 bagian dari stuktur emergency respon (First aider, Spilit handler, Evakuasi dan Fire fighter). Memahami sarana pemadam yang tepat dan tersedia di area kerja merupakan fungsi dari ?",
+        "question2": "",
+        "answer": "Fire Fighter",
+        "explanation": "",
+        "time": 15
+    },
+    {
+        "category": "Tentang K3",
+        "questionNumber": 72,
+        "question": "Kepanjangan dari P3K adalah ?",
+        "question2": "",
+        "answer": "Pertolongan Pertama Pada Kecelakaan",
+        "explanation": "",
+        "time": 15
+    },
+    {
+        "category": "Tentang K3",
+        "questionNumber": 73,
+        "question": "Alat pengukur suhu disebut dengan ?",
+        "question2": "",
+        "answer": "Termometer",
+        "explanation": "",
+        "time": 15
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 74,
+        "question": "Orang yang mengemudikan pesawat terbang disebut ?",
+        "question2": "",
+        "answer": "Pilot",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 75,
+        "question": "Kegiatan mengirim barang ke luar negeri disebut ?",
+        "question2": "",
+        "answer": "Ekspor",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 76,
+        "question": "Fenomena alam yang biasa muncul setelah terjadi hujan disebut ?",
+        "question2": "",
+        "answer": "Pelangi",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 77,
+        "question": "Malin Kundang adalah salah satu cerita rakyat yang berasal dari provinsi ?",
+        "question2": "",
+        "answer": "Sumatera Barat",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 78,
+        "question": "Bendera Pusaka Merah Putih dijahit oleh ?",
+        "question2": "",
+        "answer": "Ibu Fatmawati",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 79,
+        "question": "Alat indera yang paling peka untuk membedakan benda panas dan benda dingin adalah ?",
+        "question2": "",
+        "answer": "Kulit",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 80,
+        "question": "Hasil dari 5-1x0 ?",
+        "question2": "",
+        "answer": "5",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 81,
+        "question": "Hasil dari 6-1x2 adalah ?",
+        "question2": "",
+        "answer": "5",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 82,
+        "question": "Walang sangit melindungi dirinya dari pemangsa dengan cara mengubah warna sesuai dengan warna lingkungan di sekitarnya.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Benar",
+        "explanation": "",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 83,
+        "question": "Siapa wakil presiden RI pertama ?",
+        "question2": "",
+        "answer": "Moh. Hatta",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 84,
+        "question": "Berapa lama Belanda menjajah Indonesia ?",
+        "question2": "",
+        "answer": "3,5 abad",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 85,
+        "question": "Logo kara memiliki berapa warna ?",
+        "question2": "",
+        "answer": "Biru Dongker dan Putih",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 86,
+        "question": "Pattimura pernah diabadikan dalam uang rupiah kertas, tepatnya uang dengan nominal 1000.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Benar",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 87,
+        "question": "Sumber dari segala sumber hukum negara Indonesia adalah ?",
+        "question2": "",
+        "answer": "Pancasila",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 88,
+        "question": "Ada berapa jumlah titik kumpul evakuasi yang ada di PT Pulau Sambu ?",
+        "question2": "",
+        "answer": "2",
+        "explanation": "",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 89,
+        "question": "Rumah Gadang merupakan rumah adat dari rpovinsi Sumatera Barat.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Benar",
+        "explanation": "",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 90,
+        "question": "Perubahan benda padat menjadi gas disebut ?",
+        "question2": "",
+        "answer": "Menyublim",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 91,
+        "question": "Yoghurt adalah hasil fermentasi dari ?",
+        "question2": "",
+        "answer": "Susu",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 92,
+        "question": "Jika manusia adalah makhluk berfikir, dan semua orang yang berfikir adalah pembelajar, maka semua manusia adalah pembelajar.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Benar",
+        "explanation": "",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 93,
+        "question": "Dongeng tentang keajaiban asal usul suatu tempat, benda, atau suatu daerah.",
+        "question2": "",
+        "answer": "Legenda",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 94,
+        "question": "Gunung tertinggi di Pulau Jawa adalah Gunung Slamet.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Salah",
+        "explanation": "Gunung tertingi di Pulau Jawa adalah Gunung Semeru dengan ketinggian 3,676 mpdl, sedangkan Gunung Slamet hanya 3,432 mpdl",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 95,
+        "question": "Mata uang dari Negara Malaysia adalah ?",
+        "question2": "",
+        "answer": "Ringgit",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 96,
+        "question": "Mata uang dari Negara Singapura adalah US Dolar.",
+        "question2": "Benar atau Salah ?",
+        "answer": "Salah",
+        "explanation": "Dollar Singapura",
+        "time": 5
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 97,
+        "question": "Peristiwa Bandung Lautan Api, dikenang dengan lagu Nasional ?",
+        "question2": "",
+        "answer": "Halo Halo Bandung",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 98,
+        "question": "Undang - Undang tidak tertulis disebut ?",
+        "question2": "",
+        "answer": "Konvensi",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 99,
+        "question": "Siapa pencipta lagu Indonesia Raya ?",
+        "question2": "",
+        "answer": "W.R Soepratman",
+        "explanation": "",
+        "time": 10
+    },
+    {
+        "category": "Umum",
+        "questionNumber": 100,
+        "question": "Ibu kota provinsi Jambi adalah ?",
+        "question2": "",
+        "answer": "Jambi",
         "explanation": "",
         "time": 10
     }

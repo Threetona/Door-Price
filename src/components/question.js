@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Button, Grid, Typography, Paper } from '@mui/material';
-import bankerQuestions2 from '../data-dummy/bankerQuestion.json';
 // eslint-disable-next-line no-unused-vars
+import bankerQuestions2 from '../data-dummy/bankerQuestion.json';
 import bankerQuestions from '../data-dummy/bankerQuestion2.json';
 
 const styles = {
